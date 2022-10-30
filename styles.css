@@ -21,16 +21,21 @@
 
 .container {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 .card {
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .5em;
+    text-align: center;
+    padding: 1em;
     background: white;
-    border-radius: 50px;
+    border-radius: 25px;
+    max-width: 20em;
 }
 
 .card * {
@@ -38,8 +43,9 @@
 }
 
 .card img {
-    border-radius: 50px;
+    border-radius: 25px;
     margin-bottom: 1em;
+    max-width: 100%;
 }
 
 .card h1 {
