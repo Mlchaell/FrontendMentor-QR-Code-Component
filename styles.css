@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: margin: 1rem;
     background-color: var(--light-gray);
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card {
@@ -30,6 +30,7 @@
     border-radius: 25px;
     max-width: 20em;
     box-shadow: 5px 15px 20px 0px rgba(0,0,0,0.10);
+    margin: 0.938rem
 }
 
 .card * {
